@@ -45,20 +45,3 @@ task-tracker/
   src/test/java/com/maryann/tasktracker/
     TaskManagerTest.java
 ```
-
-## Ideas for your next commits
-
-Once this is running, here are small, self-contained features to add — each makes
-a good separate commit/PR:
-
-- Due dates: add a `LocalDate` field to `Task`, sort the list by date.
-- Priorities: add a `Priority` enum (LOW/MEDIUM/HIGH), filter/sort by it.
-- Categories/tags: let tasks belong to a category, add a `list <category>` command.
-- Edit command: update an existing task's description in place.
-- Search: filter tasks by keyword in the description.
-- Switch storage format from CSV to JSON (a good excuse to add a small JSON library).
-- Colorized CLI output (green for done, red for overdue) using ANSI escape codes.
-- Undo: keep a small history so the last delete/complete can be reverted.
-
-Each of these is scoped to a single evening and gives you a clean commit history
-to show on GitHub.
